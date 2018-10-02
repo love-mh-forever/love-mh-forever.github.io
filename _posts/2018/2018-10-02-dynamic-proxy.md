@@ -70,5 +70,11 @@ public class SpringApplication {
     proxyService.testProxy();
     }
 }
-
 ```
+
+输入结果：
+```
+我是第一个逻辑方法的内容........
+我是ProxyService中的测试方法......
+```
+[项目地址](https://github.com/love-mh-forever/spring-examples/tree/master/dynamic-proxy)
