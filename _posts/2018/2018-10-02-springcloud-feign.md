@@ -71,3 +71,5 @@ public interface HelloRemote {
 ```
 `@FeignClient`中的name是调用的服务名，`注意:`想要调用服务对外开发的接口，必须保持服务有同样的参数和请求地址，如上述`hello`，`name`，在`producer`中也要有这个接口和同样的请求参数。
 * 启动服务，访问`hello`,可以看到`producer`中的hello被调用，并返回结果。
+
+[项目地址](https://github.com/love-mh-forever/spring-cloud-examples/tree/master/spring-cloud-feign)
