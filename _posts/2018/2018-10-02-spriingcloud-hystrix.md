@@ -30,8 +30,8 @@ public class HystrixApplication {
 		SpringApplication.run(HystrixApplication.class, args);
 	}
 }
-
 ```
+
 增加了`@EnableFeignClients`注解
 * 编写服务调用接口
 ``` java
