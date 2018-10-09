@@ -1,7 +1,7 @@
 ---
 layout: post
 tiltle: zuul的使用
-no-post-nav:true
+no-post-nav: true
 categroy: springcloud
 tags: [springcloud]
 ---
