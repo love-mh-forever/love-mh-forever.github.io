@@ -24,9 +24,9 @@ enforce_ssl: ityouknow.com
 ## Gem
 plugins:
   - jekyll-paginate
-  - jekyll-geo-pattern
-  - rouge
-  - kramdown
+#  - jekyll-geo-pattern
+#  - rouge
+#  - kramdown
   - jekyll-github-metadata
   - jekyll-octicons
   
