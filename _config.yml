@@ -70,12 +70,12 @@ navs:
     label: Spring-Cloud
 
   -
-    href: /archives.html
-    label: Archives
-
-  -
     href: /vue.html
     label: Vue
+
+  -
+    href: /archives.html
+    label: Archives
 
   -
     href: /about.html
