@@ -10,11 +10,12 @@ tags: [vue]
 
 * 项目的简单结构
 
-![项目地址](https://github.com/love-mh-forever/vue-examples/tree/master/hello-world)
+[项目地址](https://github.com/love-mh-forever/vue-examples/tree/master/hello-world)
 
 ![](https://love-mh-forever.github.io/assets/images/2018/vue/vue-router1-1.png)
 
 * router下的index.js内容
+
 ``` js
 import Vue from 'vue'
 import Router from 'vue-router'
@@ -66,6 +67,7 @@ export default new Router({
 * path表示组件访问的路径
 * name路由的标志
 * component组件的名称和顶部import对应
+
 `提醒`：Vue.use(Router)不要忘记
 
 ##### 路由如何使用？
