@@ -11,9 +11,10 @@ permalink: /vue
 
     <div class="col-md-12">
 
+        <!-- Blog list -->
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='vue'  or post.keywords contains 'vue' or post.keywords contains 'vue' %}
+                {% if post.category=='vue' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
@@ -23,7 +24,7 @@ permalink: /vue
                 </li>
                 {% endif %}
             {% endfor %}
-        </ul> 
+        </ul>
 
         <!-- Pagination -->
         {% include pagination.html %}
@@ -32,6 +33,7 @@ permalink: /vue
        <div class="comment">
          {% include comments.html %}
        </div>
+
     </div>
 
 </div>
