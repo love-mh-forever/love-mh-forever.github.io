@@ -85,9 +85,9 @@ navs:
 # labels. my blog key words
 labels:
 
-  -
-    href: /share/2017/10/01/resource-sharing.html
-    name: 资源
+#  -
+#    href: /share/2017/10/01/resource-sharing.html
+#    name: 资源
 
   -
     href: /life.html
