@@ -71,6 +71,7 @@ export default new Router({
 ##### 路由如何使用？
 ----
 * `加载路由`
+
 ``` html
 import Vue from 'vue'
 import router from './router'
