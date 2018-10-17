@@ -67,6 +67,22 @@ export default new Router({
 
 ##### 路由如何使用？
 ----
+* `加载路由`
+``` html
+import Vue from 'vue'
+import router from './router'
+import App from './App.vue'
+
+Vue.config.productionTip = false
+
+new Vue({
+  router,
+  render: h => h(App)
+}).$mount('#app')
+
+```
+
+* `使用路由`
 ``` html
 <template>
   <div id="app">
