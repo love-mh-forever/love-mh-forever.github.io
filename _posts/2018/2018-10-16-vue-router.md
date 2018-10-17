@@ -2,7 +2,7 @@
 layout: post
 title: vue-router的简单使用
 no-post-nav: true
-category: [vue]
+category: vue
 tags: [vue] 
 ---
 
