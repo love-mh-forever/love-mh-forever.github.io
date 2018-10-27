@@ -157,3 +157,44 @@ http {
     }
 }
 ```
+
+### 图片服务器的搭建
+
+```xml
+server {
+        listen       8088;
+        server_name  localhost;
+location ~ .*\.(gif|jpg|jpeg|png)$ {  
+            expires 24h;  
+            root /home/images/;#指定图片存放路径  
+            access_log /home/nginx/logs/images.log;#图片 日志路径  
+            proxy_store on;  
+            proxy_store_access user:rw group:rw all:rw;  
+            proxy_temp_path         /home/images/;#代理临时路径
+            proxy_redirect          off;  
+
+            proxy_set_header        Host 127.0.0.1;  
+            proxy_set_header        X-Real-IP $remote_addr;  
+            proxy_set_header        X-Forwarded-For $proxy_add_x_forwarded_for;  
+            client_max_body_size    10m;  
+            client_body_buffer_size 1280k;  
+            proxy_connect_timeout   900;  
+            proxy_send_timeout      900;  
+            proxy_read_timeout      900;  
+            proxy_buffer_size       40k;  
+            proxy_buffers           40 320k;  
+            proxy_busy_buffers_size 640k;  
+            proxy_temp_file_write_size 640k;  
+            if ( !-e $request_filename)  
+            {  
+                 proxy_pass  http://127.0.0.1:8088;#代理访问地址  
+            }  
+        }
+
+        location / {
+            root   html;
+            index  index.html index.htm;
+        }
+}
+
+```
