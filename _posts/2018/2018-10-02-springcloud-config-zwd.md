@@ -62,8 +62,8 @@ spring:
 ## config-client
 现在把思想回到开始，config-server只是一个注册到注册中心的一个服务，它只是把所有配置文件都放到了一起，并告诉配置文件的路径，但并没告诉我们配置文件夹下的配置文件怎么对应具体的client。
 下面看下client的配置文件，根据配置文件来解释会比较清晰明了。
-``` yml
 
+``` yml
 spring.application.name=spring-cloud-config-client
 server.port=8002
 spring.cloud.config.profile=dev
