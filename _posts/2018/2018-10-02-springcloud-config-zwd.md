@@ -34,7 +34,7 @@ spring:
         git:
           uri: https://github.com/love-dl-forever/spring-cloud-starter/    # 配置git仓库的地址
           search-paths: neo-config,*/application.properties                            # git仓库地址下的相对地址，可以配置多个，用,分割。
-          username: love-mh-forever                                        # git仓库的账号
+          username: despairyoke                                        # git仓库的账号
           password: *******  
 ```
 * `uri`是`neo-config`所在项目的git地址
@@ -81,4 +81,4 @@ eureka.client.serviceUrl.defaultZone=http://localhost:8000/eureka/
 
 其实在上面neo-config文件夹下的文件也提到过，这里做详细说明。
 在项目开发时，我们不可能和`prod`用相同的`database`,`rabbitmq`等，所以一个服务可能会有多个配置文件。所以在配置文件的命令上就有了要求，规定按照`{application-name}-{profile}`来命名;`profile`就表示了不同环境使用的后缀不同，一般都是`prod`、`dev`、`test`这三个。所以上述的dev作用就在于此。
-[项目地址](https://github.com/love-mh-forever/spring-cloud-examples/tree/master/spring-cloud-config-eureka)
+[项目地址](https://github.com/despairyoke/spring-cloud-examples/tree/master/spring-cloud-config-eureka)

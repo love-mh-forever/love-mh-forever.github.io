@@ -15,10 +15,10 @@ keywords: Spring,Spring Boot,Spring Cloud,MongoDB,Jvm,Docker,生活故事,架构
 encoding: "utf-8"
 favicon: favicon.png 
 
-repository: love-mh-forever/love-mh-forever.github.io
-github_url: https://github.com/love-mh-forever
+repository: despairyoke/despairyoke.github.io
+github_url: https://github.com/despairyoke
 cnblog_url: http://www.cnblogs.com/ityouknow
-url: https://love-mh-forever.github.io
+url: https://despairyoke.github.io
 enforce_ssl: ityouknow.com
 
 ## Gem
@@ -167,17 +167,17 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: love-mh-forever
+    username: despairyoke
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: love-mh-forever
+    owner: despairyoke
     repo: blog-comments
     oauth:
         client_id: 5ef7bc993f438cb996da
         client_secret: 230c06385724132745732d7bd1868863480ab64d
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: love-mh-forever
+    owner: despairyoke
     repo: blog-comments
     clientID: 5ef7bc993f438cb996da
     clientSecret: 230c06385724132745732d7bd1868863480ab64d

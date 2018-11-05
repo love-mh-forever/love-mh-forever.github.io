@@ -76,4 +76,4 @@ feign.hystrix.enabled=true
 
 * 启动项目访问`hello`是能正常访问的，但当我们把`producer`服务停止运行时，再次访问，这些会调用fallback方法返回错误日志。
 
-[项目地址](https://github.com/love-mh-forever/spring-cloud-examples/tree/master/spring-cloud-hystrix)
+[项目地址](https://github.com/despairyoke/spring-cloud-examples/tree/master/spring-cloud-hystrix)

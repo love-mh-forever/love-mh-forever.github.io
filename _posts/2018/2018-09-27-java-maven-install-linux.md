@@ -10,7 +10,7 @@ excerpt: 在linux上快速搭建java开发环境 java;maven;git;docker;docker-co
 
 **执行脚本**
 
-[脚本连接](https://github.com/love-mh-forever/love-mh-forever.github.io/blob/master/assets/files/2018/java_install.sh)
+[脚本连接](https://github.com/despairyoke/despairyoke.github.io/blob/master/assets/files/2018/java_install.sh)
 
 ！如果执行时，脚本长时间暂停，可能是因为linux版本问题；这时可查看执行进度，手动执行脚本中的命令完成安装。
 

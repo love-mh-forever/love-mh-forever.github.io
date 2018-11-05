@@ -208,7 +208,7 @@ location = / {
 }  
 location = /login {  
    #规则B  
-}  
+}       
 location ^~ /static/ {  
    #规则C  
 }  
@@ -268,3 +268,28 @@ location / {
 ```
 
 
+### 配置输入密码进入首页
+```xml
+events {
+ worker_connections  1024;
+}
+http{
+ server {
+    listen       80;
+    server_name  hlw.fangxinqian.cn;#_;
+	location / {
+		auth_basic "Restricted";	
+		auth_basic_user_file /usr/local/nginx/conf/htpasswd;
+		autoindex on;
+		autoindex_exact_size off;
+	 	autoindex_localtime on;
+		allow 183.247.162.210;
+		charset utf-8,gbk;
+         proxy_redirect off;
+        proxy_pass http://127.0.0.1:8999;
+	}
+	access_log  /usr/local/nginx/logs/access.log;
+	error_log  /usr/local/nginx/logs/error.log;
+}
+}
+```

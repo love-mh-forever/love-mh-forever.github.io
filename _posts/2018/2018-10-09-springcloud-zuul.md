@@ -139,4 +139,4 @@ public class ProducerFallback implements FallbackProvider {
 * `getBody`是返回的错误内容
 演示过程：启动eureka springcloud-producer-2 zuul三个服务，访问`http://localhost:8888/spring-cloud-producer/hello?name=zwd&token=zzzzz`，这时返回给我定义好的错误信息。
 
-[项目地址](https://github.com/love-mh-forever/spring-cloud-examples/tree/master/spring-cloud-zuul)
+[项目地址](https://github.com/despairyoke/spring-cloud-examples/tree/master/spring-cloud-zuul)

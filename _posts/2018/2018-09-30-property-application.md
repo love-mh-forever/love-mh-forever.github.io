@@ -76,4 +76,4 @@ spring.profiles.active=test
 ```
 想要切换为dev时，只需修改`test`为`dev`即可
 
-[项目地址](https://github.com/love-mh-forever/spring-boot-examples/tree/master/springboot-property-example)
+[项目地址](https://github.com/despairyoke/spring-boot-examples/tree/master/springboot-property-example)

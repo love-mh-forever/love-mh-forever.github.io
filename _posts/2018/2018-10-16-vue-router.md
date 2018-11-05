@@ -10,9 +10,9 @@ tags: [vue]
 
 * 项目的简单结构
 
-[项目地址](https://github.com/love-mh-forever/vue-examples/tree/master/hello-world)
+[项目地址](https://github.com/despairyoke/vue-examples/tree/master/hello-world)
 
-![](https://love-mh-forever.github.io/assets/images/2018/vue/vue-router1-1.png)
+![](https://despairyoke.github.io/assets/images/2018/vue/vue-router1-1.png)
 
 * router下的index.js内容
 
@@ -104,16 +104,16 @@ new Vue({
 </template>
 ```
 
-![](https://love-mh-forever.github.io/assets/images/2018/vue/vue-router1-2.png)
+![](https://despairyoke.github.io/assets/images/2018/vue/vue-router1-2.png)
 
 * `router-link`会映射成`<a>`标签，`to`对应的就是`route/index.js`配置`path`
 * `router-view`会填充`route`中的组件,如当前访问地址为`8080/`,页面显示内容为`home`组件中的`i,m home page`
 
 ##### 路由参数传递
 ----
-![](https://love-mh-forever.github.io/assets/images/2018/vue/vue-router1-3.png)
+![](https://despairyoke.github.io/assets/images/2018/vue/vue-router1-3.png)
 
-![](https://love-mh-forever.github.io/assets/images/2018/vue/vue-router1-4.png)
+![](https://despairyoke.github.io/assets/images/2018/vue/vue-router1-4.png)
 
 
 ``` html
