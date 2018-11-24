@@ -1,12 +1,13 @@
 ---
 layout: post
-title: Java 四种线程池newCachedThreadPool,newFixedThreadPool,newScheduledThreadPool,newSingleThreadExecutor
+title: Java 四种线程池
 no-post-nav: true
 category: arch
 tags: [arch] 
 ---
 
-# Java 四种线程池newCachedThreadPool,newFixedThreadPool,newScheduledThreadPool,newSingleThreadExecutor
+# Java 四种线程池
+## newCachedThreadPool,newFixedThreadPool,newScheduledThreadPool,newSingleThreadExecutor
 
 ### 1、new Thread的弊端
 执行一个异步任务你还只是如下new Thread吗？
