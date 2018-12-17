@@ -7,7 +7,6 @@ keywords: Spring Cloud,open source
 ---
 
 
-----------------
 |Feature|BeanFactory|ApplicationContext|
 |--|--|--------------|
 |bean实例化/注入|<center>支持</center>|<center>支持</center>|
