@@ -9,15 +9,16 @@ keywords: Spring Cloud,open source
 
 |Feature|BeanFactory|ApplicationContext|
 |--|--|--------------|
-|bean实例化/注入|支持|支持|
-|实例生命周期管理|不支持|支持|
-|自动BeanPostProcessor注册|不支持|支持|
-|自动BeanFactoryPostProcessor注册|不支持|支持|
-|方便MessageSource接收|不支持|支持|
-|内置的ApplicationEvent发布机制|不支持|支持|
-
+|bean实例化/注入|<center>支持</center>|<center>支持</center>|
+|实例生命周期管理|<center>不支持</center>|<center>支持</center>|
+|自动BeanPostProcessor注册|<center>支持</center>|<center>支持</center>|
+|自动BeanFactoryPostProcessor注册|<center>支持</center>|<center>支持</center>|
+|方便MessageSource接收|<center>支持</center>|<center>支持</center>|
+|内置的ApplicationEvent发布机制|<center>支持</center>|<center>支持</center>|
 
 使用BeanFactroy加载时，要手动附加所需的功能。
+
+
 实例：
 ```java
 DefaultListableBeanFactory factory = new DefaultListableBeanFactory();
