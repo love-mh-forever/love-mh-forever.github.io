@@ -2,6 +2,7 @@
 layout: post
 title: BeanFactory还是ApplicationContext及Aware的使用
 category: arch
+no-post-nav: true
 tags: [arch]
 keywords: Spring Cloud,open source
 ---
