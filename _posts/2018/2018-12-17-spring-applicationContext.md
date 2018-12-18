@@ -11,10 +11,10 @@ keywords: Spring Cloud,open source
 |--|--|--------------|
 |bean实例化/注入|<center>支持</center>|<center>支持</center>|
 |实例生命周期管理|<center>不支持</center>|<center>支持</center>|
-|自动BeanPostProcessor注册|<center>支持</center>|<center>支持</center>|
-|自动BeanFactoryPostProcessor注册|<center>支持</center>|<center>支持</center>|
-|方便MessageSource接收|<center>支持</center>|<center>支持</center>|
-|内置的ApplicationEvent发布机制|<center>支持</center>|<center>支持</center>|
+|自动BeanPostProcessor注册|<center>不支持</center>|<center>支持</center>|
+|自动BeanFactoryPostProcessor注册|<center>不支持</center>|<center>支持</center>|
+|方便MessageSource接收|<center>不支持</center>|<center>支持</center>|
+|内置的ApplicationEvent发布机制|<center>不支持</center>|<center>支持</center>|
 
 使用BeanFactroy加载时，要手动附加所需的功能。
 
