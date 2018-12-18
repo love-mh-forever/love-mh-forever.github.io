@@ -167,7 +167,7 @@ comments_provider: gitalk
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: despairyoke
+    username: disqus_OVF6W5R1uh
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: DespairYoke
