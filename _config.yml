@@ -171,14 +171,14 @@ disqus:
 # https://imsun.net/posts/gitment-introduction/
 gitment:
     owner: DespairYoke
-    repo: DespairYoke.github.io
+    repo: blog-comments
     oauth:
         client_id: 531ea9c8ef7b1d06193e
         client_secret: e88fcfeb88f7ecd2d01fd9175c2bd986866c33c0
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: DespairYoke
-    repo: DespairYoke.github.io
+    repo: blog-comments
     clientID: 531ea9c8ef7b1d06193e
     clientSecret: e88fcfeb88f7ecd2d01fd9175c2bd986866c33c0
 # 在使用其它评论组件时可点击显示 Disqus
