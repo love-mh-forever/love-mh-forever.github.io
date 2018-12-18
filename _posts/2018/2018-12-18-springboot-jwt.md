@@ -126,10 +126,12 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4
 * 把信息加密
 * 解密获取信息
 
- ##### 项目结构
- ![](https://upload-images.jianshu.io/upload_images/15204062-49582671b99fd969.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+##### 项目结构
  
- ##### jwt核心代码
+![](https://upload-images.jianshu.io/upload_images/15204062-49582671b99fd969.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ 
+##### jwt核心代码
+ 
 ```java
 public class JwtHelper {
 
