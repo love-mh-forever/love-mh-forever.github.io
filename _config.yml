@@ -70,6 +70,10 @@ navs:
     label: Spring-Cloud
 
   -
+    href: /python.html
+    label: Python
+
+  -
     href: /vue.html
     label: Vue
 
@@ -80,9 +84,7 @@ navs:
   -
     href: /about.html
     label: About
-  -
-    href: /python.html
-    label: Python
+
 
 # labels. my blog key words
 labels:
