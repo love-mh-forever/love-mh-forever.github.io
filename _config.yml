@@ -80,7 +80,9 @@ navs:
   -
     href: /about.html
     label: About
-
+  -
+    href: /python.html
+    label: Python
 
 # labels. my blog key words
 labels:
