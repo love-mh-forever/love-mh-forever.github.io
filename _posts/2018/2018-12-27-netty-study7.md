@@ -34,7 +34,9 @@ BufferedReader in = new BufferedReader(new InputStreamReader((System.in)));
                 });
             }
 ```
+
 - 上面只是把数据写入缓存，我们必须在数据发出前对数据进行处理。这里我们使用`ChannelDuplexHandler`
+
 ```java
 public class RedisClientHandler extends ChannelDuplexHandler{
 
