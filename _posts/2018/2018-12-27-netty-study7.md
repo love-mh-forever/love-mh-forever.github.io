@@ -7,10 +7,11 @@ tags: [arch]
 ---
 
 netty内置有封装好的reids供我们来使用，我们只需对netty进行客户端和服务端的数据处理，再加一封装就能实现简单的redis功能，这里我只封装了string类型的支持，其他原理一样。
+
 ### 先看客户端如何对数据进行处理？
 - 首先我们从命令行的输入下手
 ```java 
-BufferedReader in = new BufferedReader(new InputStreamReader((System.in)));
+BufferedReader in = new BufferedReader(new InputStreamReader((System.in)));  
             for (;;) {
                 final String input = in.readLine();
                 final String line = input != null? input.trim() : null;
