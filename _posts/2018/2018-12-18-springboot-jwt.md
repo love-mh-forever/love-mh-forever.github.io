@@ -6,6 +6,7 @@ tags: [springboot]
 ---
 
 ### jwt和传统session的区别？
+
 #### 传统的session认证
     
 > 1、用户向服务器发送用户名和密码。
