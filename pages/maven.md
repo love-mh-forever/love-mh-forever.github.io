@@ -1,12 +1,12 @@
 ---
 layout: page
-title: MongoDB 系列文章
-titlebar: MongoDB
-subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; MongoDB 系列教程
-menu: mongodb
+title: Maven 系列文章
+titlebar: Maven
+subtitle: <span class="mega-octicon octicon-clippy"></span>&nbsp;&nbsp; Maven 系列教程
+menu: maven
 css: ['blog-page.css']
-permalink: /mongodb
-keywords: MongoDB,MongoDB 集群,部署,搭建,MongoDB 教程
+permalink: /maven
+keywords: Maven,Maven 打包,发布,Maven 教程
 ---
 
 <div class="row">
@@ -15,7 +15,7 @@ keywords: MongoDB,MongoDB 集群,部署,搭建,MongoDB 教程
 
         <ul id="posts-list">
             {% for post in site.posts %}
-                {% if post.category=='mongodb'  or post.keywords contains 'mongodb' %}
+                {% if post.category=='maven'  or post.keywords contains 'maven' %}
                 <li class="posts-list-item">
                     <div class="posts-content">
                         <span class="posts-list-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
