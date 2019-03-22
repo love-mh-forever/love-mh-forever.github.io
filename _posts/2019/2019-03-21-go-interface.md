@@ -4,6 +4,7 @@ title:  接口的使用
 no-post-nav: true
 category: go
 tags: [go]
+description: 学习go语言接口记录
 ---
 
 ### 接口的特点
