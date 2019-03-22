@@ -2,7 +2,7 @@
 layout: post
 title:  nacas的服务消费
 no-post-nav: true
-catagory: life
+category: life
 tags: [life]
 ---
 

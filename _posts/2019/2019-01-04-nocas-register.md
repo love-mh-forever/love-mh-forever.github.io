@@ -2,7 +2,7 @@
 layout: post
 title:  nacas的注册发现
 no-post-nav: true
-catagory: life
+category: life
 tags: [life]
 ---
 
