@@ -70,8 +70,8 @@ navs:
     label: Spring-Cloud
 
   -
-    href: /python.html
-    label: Python
+    href: /go.html
+    label: Go
 
   -
     href: /vue.html
