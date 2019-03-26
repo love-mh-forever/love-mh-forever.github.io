@@ -20,6 +20,7 @@ scp local_file remote_ip:remote_file
 ```
 
 * 2.复制目录命令格式
+
 ```
 scp -r local_folder remote_username@remote_ip:remote_folder 
 或者 
@@ -27,6 +28,7 @@ scp -r local_folder remote_ip:remote_folder
 ```
 
 * 3、从远程复制到本地
+
 ```java
 scp root@www.runoob.com:/home/root/others/music /home/space/music/1.mp3 
 scp -r www.runoob.com:/home/root/others/ /home/space/music/
