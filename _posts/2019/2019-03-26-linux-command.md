@@ -1,6 +1,6 @@
 ---
 layout: post
-title: nginx学习汇总
+title: linux命令学习汇总
 category: base-command
 tags: [base-commond]
 description: linux命令大全
