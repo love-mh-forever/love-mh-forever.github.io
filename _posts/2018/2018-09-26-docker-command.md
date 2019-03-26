@@ -31,9 +31,9 @@ excerpt: 记录docker平常使用的命令
 ## 镜像
 
 ```     
-    docker rm imageid  #移除镜像
+    docker rmi imageid  #移除镜像
     
-    docker rm $(docker images -a) #移除所有镜像
+    docker rmi $(docker images -a) #移除所有镜像
     
 ```
 
