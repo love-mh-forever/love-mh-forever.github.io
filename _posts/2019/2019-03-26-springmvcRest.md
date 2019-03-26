@@ -1,5 +1,12 @@
-## spring mvc Rest 处理流程
+---
+layout: post
+title: spring mvc Rest 处理流程
+no-post-nav: true
+category: arch
+tags: [arch]
+---
 
+## spring mvc Rest 处理流程
 
 
 ![](https://github.com/DespairYoke/DespairYoke.github.io/blob/master/assets/images/2019/spring-web-mvc-Rest.png)
