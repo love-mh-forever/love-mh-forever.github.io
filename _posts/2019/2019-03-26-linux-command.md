@@ -2,7 +2,7 @@
 layout: post
 title: linux命令学习汇总
 category: base-command
-tags: [base-commond]
+tags: [base-command]
 description: linux命令大全
 ---
 

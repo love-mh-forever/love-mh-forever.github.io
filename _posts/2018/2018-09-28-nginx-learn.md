@@ -2,7 +2,7 @@
 layout: post
 title: nginx学习汇总
 category: base-command
-tags: [base-commond]
+tags: [base-command]
 ---
 ## 配置网络监听
 
