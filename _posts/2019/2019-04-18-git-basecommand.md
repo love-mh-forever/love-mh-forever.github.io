@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  git基础命令记录
-catagory: base-command
+category: base-command
 tags: [base-command]
 description: git基础命令记录
 ---
