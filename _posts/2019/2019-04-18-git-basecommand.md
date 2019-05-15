@@ -24,5 +24,7 @@ description: git基础命令记录
 - git push origin --tags   提交所有的tag
     
 ### 删除远程tag
-
+```xml
 git push origin --delete tag <tagname>
+```
+
