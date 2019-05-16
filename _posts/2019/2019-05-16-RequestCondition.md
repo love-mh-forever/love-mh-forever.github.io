@@ -50,7 +50,9 @@ protected RequestMappingInfo getMappingForMethod(Method method, Class<?> handler
     return info;
 }
 ```
+
 可以看出为每个方法都创建了一个RequestMappingInfo，而RequestMappingInfo正是`RequestCondition`集合，记录了请路径、参数、方式、头等。可以看下对象内容
+
 ```java
 private final MyPatternsRequestCondition patternsCondition;
 
