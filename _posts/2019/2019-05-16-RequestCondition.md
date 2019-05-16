@@ -68,28 +68,35 @@ private final MyProducesRequestCondition producesCondition;
 
 private final MyRequestConditionHolder customConditionHolder;
 ```
+
 获取后的RequestMappingInfo会注册到HandlerMethod中
+
 ```java
 methods.forEach((method, mapping) -> {
     Method invocableMethod = AopUtils.selectInvocableMethod(method, userType);
     registerHandlerMethod(handler, invocableMethod, mapping);
 });
 ```
+
 最终注册到`mappingRegistry`中
+
 ```java
 protected void registerHandlerMethod(Object handler, Method method, T mapping) {
     this.mappingRegistry.register(mapping, handler, method);
     System.out.println("ssss");
 }
 ```
+
 ### 客户端发起请求
 
 当客户端发起请求后，tomcat的servlet会转发到`DispatcherServlet`的servce函数回调。经过`doDispatch`,`getHandler`,再到`AbstractHandlerMapping`的getHandler，`getHandlerInternal`,`lookupHandlerMethod`
 看下`lookupHandlerMethod`代码
+
 ```java
     protected HandlerMethod lookupHandlerMethod(String lookupPath, HttpServletRequest request) throws Exception {
         List<Match> matches = new ArrayList<>();
         List<T> directPathMatches = this.mappingRegistry.getMappingsByUrl(lookupPath);
         }
 ```
+
 这时，看到了我们初始化时，加载的`mappingRegistry`，这时就能匹配成功，找到对应的方法。
