@@ -4,7 +4,7 @@ title: SpringMvc初始化ViewResolver（九）
 no-post-nav: true
 category: arch
 tags: [arch]
-description:SpringMvc初始化ViewResolver
+description: SpringMvc初始化ViewResolver
 ---
 
 ## ViewResolver
