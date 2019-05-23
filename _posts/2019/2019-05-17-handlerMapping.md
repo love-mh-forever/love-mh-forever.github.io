@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SpringMvc初始化handlerMapping
+title: SpringMvc初始化handlerMapping（二）
 no-post-nav: true
 category: arch
 tags: [arch]
