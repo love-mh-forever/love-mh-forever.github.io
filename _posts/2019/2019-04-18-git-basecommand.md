@@ -28,3 +28,11 @@ description: git基础命令记录
 git push origin --delete tag <tagname>
 ```
 
+### 撤销指令
+当我们编写的内容发现有问题，这时我们想回到原来的内容，就可以使用此命令撤回。
+```xml
+git checkout <file>
+```
+注意事项：指令该是先从缓存区中拉取版本还原，如果没有再到版本库中拉取还原。
+缓存区：git add 
+版本库：git commit 
