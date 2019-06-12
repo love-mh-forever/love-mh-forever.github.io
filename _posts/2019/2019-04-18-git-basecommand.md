@@ -45,3 +45,14 @@ git push -u origin master    // 第一次推送时
 
 git push origin master  // 第一次推送后，直接使用该命令即可推送修改
 ```
+
+### GitHub Pages
+GitHub Pages 的静态资源支持下面 3 个来源：
+
+`master` 分支
+`master` 分支的 `/docs` 目录
+`gh-pages` 分支
+执行下面命令，将 _book 目录推送到 GitHub 仓库的 gh-pages 分支。
+```xml
+git subtree push --prefix=_book origin gh-pages
+```
