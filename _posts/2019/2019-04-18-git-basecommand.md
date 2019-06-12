@@ -36,3 +36,12 @@ git checkout <file>
 注意事项：指令该是先从缓存区中拉取版本还原，如果没有再到版本库中拉取还原。
 缓存区：git add 
 版本库：git commit 
+
+### git提交到远程仓库
+```xml
+git remote add origin 你的远程库地址  // 把本地库与远程库关联
+
+git push -u origin master    // 第一次推送时
+
+git push origin master  // 第一次推送后，直接使用该命令即可推送修改
+```
