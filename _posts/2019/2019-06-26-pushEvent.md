@@ -51,7 +51,7 @@ public void addApplicationListener(ApplicationListener<?> listener) {
 添加到了`ListenerRetriever`中的`applicationListeners`set集合中。
 由于AbstractApplicationContext中只有`registerListeners`对listener进行了添加处理，所以后续的listener处理交给了`ApplicationEventMulticaster`。
 #### ApplicationEventMulticaster
-`multicastEvent`方法的触发是在`AbstractApplicationContext`中的`finishRefresh`方法中
+`ContextRefreshedEvent`事件的触发是在`AbstractApplicationContext`中的`finishRefresh`方法中
 ```java
 protected void finishRefresh() {
     // Publish the final event.
@@ -109,4 +109,4 @@ protected Collection<ApplicationListener<?>> getApplicationListeners(
 ```
 这`defaultRetriever`就是我们一开始添加的`ListenerRetriever`对象，也就和上述的代码关联了起来。
 总结：
-首先我们要创建一个事件交给Spring，等待Spring初始化完成后，再回调我们的自定义事件。
+首先我们要创建一个事件，把事件放入监听器中，然后把监听器交给Spring，等待Spring初始化完成后，触发我们的自定义事件，执行监听器中的方法。
